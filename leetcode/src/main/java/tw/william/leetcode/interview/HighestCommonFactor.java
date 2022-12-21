@@ -22,7 +22,7 @@ public class HighestCommonFactor {
 		if (nums.length > 1) {
 			result = getHcf(nums[0], nums[1]);
 			for (int i = 2; i < nums.length; i++) {
-				result = getHcf(result, nums[1]);
+				result = getHcf(result, nums[i]);
 			}
 
 		}
