@@ -6,7 +6,7 @@ public class BracketsCheck {
 
 	public static void main(String[] args) {
 
-		String brackets = "{}([)]";
+		String brackets = "()";
 		
 		System.out.println(execute(brackets));
 		
